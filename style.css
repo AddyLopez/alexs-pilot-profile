@@ -156,13 +156,13 @@ header nav a,
   color: hsl(0, 0%, 100%);
 }
 
-.dropdown-item:hover {
-  background: var(--accent);
+.nav-link:visited,
+.dropdown-menu:visited {
   color: hsl(0, 0%, 100%);
 }
 
-.nav-link:visited,
-.dropdown-menu:visited {
+.dropdown-item:hover {
+  background: var(--accent);
   color: hsl(0, 0%, 100%);
 }
 
@@ -173,6 +173,11 @@ header nav a,
 
 .nav-link:hover {
   background-color: var(--accent);
+}
+
+.nav-link:active,
+.dropdown-menu:active {
+  color: hsl(0, 0%, 100%);
 }
 
 /* Education & certifications */
@@ -342,10 +347,6 @@ header nav a,
   margin: 40px 0;
 }
 
-footer small a {
-  color: var(--accent);
-}
-
 .about img {
   border-radius: 20px;
 }
@@ -353,6 +354,11 @@ footer small a {
   align-items: center;
   display: flex;
   justify-content: space-evenly;
+}
+
+/* footer */
+footer small a {
+  color: var(--accent);
 }
 
 /* Utility class(es) */
