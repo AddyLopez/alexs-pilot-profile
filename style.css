@@ -342,6 +342,10 @@ header nav a,
   margin: 40px 0;
 }
 
+footer small a {
+  color: var(--accent);
+}
+
 .about img {
   border-radius: 20px;
 }
