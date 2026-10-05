@@ -253,7 +253,7 @@ header nav a,
 }
 
 .carousel p {
-  margin: 0 auto;
+  margin: 10px auto 0 auto;
   max-width: 85%;
   text-align: center;
 }
@@ -448,13 +448,28 @@ header nav a,
     font-size: 58px;
   }
 
-  .resume {
-    width: 80%;
+  p {
+    font-size: 16px;
   }
 
-  .about a {
-    display: block;
-    text-align: center;
+  section {
+    padding: 15px;
+  }
+
+  .resume {
+    width: 90%;
+  }
+
+  .education h4 {
+    font-size: 20px;
+  }
+
+  ul.list-style li {
+    margin-left: 20px;
+  }
+
+  .timeline {
+    padding-left: 15px;
   }
 
   .hours-in-flight ul {
@@ -472,5 +487,27 @@ header nav a,
 
   .carousel p {
     font-size: 16px;
+  }
+
+  .carousel-inner {
+    width: 85%;
+  }
+
+  .aircraft li {
+    padding: 15px;
+  }
+
+  .about a {
+    display: block;
+    text-align: center;
+  }
+
+  .about li {
+    font-size: 16px;
+  }
+
+  .about img {
+    height: auto;
+    max-width: 100%;
   }
 }
